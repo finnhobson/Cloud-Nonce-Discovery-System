@@ -1,7 +1,6 @@
 # Cloud-Nonce-Discovery-System
 
 Finn Hobson - fh16413
-Cloud Nonce Discovery System Programming Project.
 
 ## Deployment Instructions
 
