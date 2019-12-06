@@ -2,6 +2,8 @@
 
 Finn Hobson - fh16413
 
+Please contact me at fh16413@bristol.ac.uk for any additional information about my CND system.
+
 ## Deployment Instructions
 
 If I had more time I would have liked to use AWS CloudFormation to automatically perform these deployment steps. 
@@ -12,7 +14,7 @@ If I had more time I would have liked to use AWS CloudFormation to automatically
 
 3. On the S3 management console, create a new S3 Bucket. Enter the name of this bucket on line 12 of the cnd_setup.py script.
 
-4. On the IAM management console, create a new role and give it the "AmazonS3FullAccess" permissions policy. Enter the name of this role on line 13 of the cnd_setup.py script. This will allow the created EC2 instances to access the new S3 bucket.
+4. On the IAM management console, create a new role and attach the "AmazonS3FullAccess" permissions policy. Enter the name of this role on line 13 of the cnd_setup.py script. This will allow the created EC2 instances to access the new S3 bucket.
 
 5. On the Lambda management console, create a new Lambda Function. Select the language Python 3.7 and copy the code from the terminate_instances_lambda.py file into the Lambda code environment. Press the "Add Trigger" button and select "S3" from the dropdown menu. Select your new bucket from the "Bucket" dropdown menu and select "PUT" from the "Event type" dropdown menu. Make sure the "Enable trigger" checkbox is ticked and click "Add". Enter the name of this Lambda function on line 14 of the cnd_setup.py file.
 
