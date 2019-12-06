@@ -57,7 +57,6 @@ def start_instances(D, N):
             MinCount=1,
             MaxCount=1,
             InstanceType='t2.micro',
-            #KeyName='ec2-keypair',
             IamInstanceProfile={
                 'Name': S3_ACCESS_ROLE
             },
