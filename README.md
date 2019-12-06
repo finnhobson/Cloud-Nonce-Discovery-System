@@ -2,7 +2,7 @@
 
 Finn Hobson - fh16413
 
-Please contact me at fh16413@bristol.ac.uk for any additional information about my CND system.
+Please email me at fh16413@bristol.ac.uk for any additional information about my CND system.
 
 ## Deployment Instructions
 
